@@ -1,7 +1,7 @@
 package net.apkode.soa;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         WebSettings websettings = webView.getSettings();
 
         websettings.setJavaScriptEnabled(true);
-        websettings.setBuiltInZoomControls(true);
+        // websettings.setBuiltInZoomControls(true);
         websettings.setDomStorageEnabled(true);
 
         webView.loadUrl("https://hydrocarbure-transport.herokuapp.com");
